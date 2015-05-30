@@ -1,0 +1,27 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "a color converter that can translate from RGB (red, green, blue) to hexadecimal color representation",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imranj131/Color-Converter"
+  },
+  "keywords": [
+    "RGB"
+  ],
+  "author": "Imran Jameel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imranj131/Color-Converter/issues"
+  },
+  "homepage": "https://github.com/imranj131/Color-Converter",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5",
+    "request": "^2.56.0"
+  }
+}
